@@ -18,9 +18,7 @@ gem 'simple_form'
 gem 'uglifier'
 
 gem 'cloudinary'
-gem 'attachinary'#
-gem 'jquery-fileupload-rails'
-gem 'coffee-rails'
+gem 'carrierwave', '~> 0.11.2'
 
 group :development, :test do
   gem 'pry-byebug'
