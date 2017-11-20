@@ -19,6 +19,8 @@ gem 'uglifier'
 
 gem 'cloudinary'
 gem 'carrierwave', '~> 0.11.2'
+gem "simple_calendar", "~> 2.0"
+
 
 group :development, :test do
   gem 'pry-byebug'
@@ -28,3 +30,4 @@ group :development, :test do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
+
